@@ -8,3 +8,8 @@ var favoriteCookie = function(cookie) {
 };
 console.log(favoriteCookie());
 console.log(favoriteCookie("peanutbutter"));
+
+var introduce = function(name, occupation) {
+    return `What is your ${name} and ${occupation}?`;
+};
+console.log(introduce());
