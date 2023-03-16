@@ -13,3 +13,15 @@ var introduce = function(name, occupation) {
     return `What is your ${name} and ${occupation}?`;
 };
 console.log(introduce());
+
+var hydrationFeedback = function() {
+    var numGlasses = Number(
+        prompt("How many glasses of water did you have today?")
+    );
+    if (numGlasses >= 8) {
+        console.log("Nicely done!");
+    } else if (numGlasses < 8) {
+        console.log("Not bad, but do better!");
+    }
+};
+hydrationFeedback();
